@@ -1,2 +1,8 @@
-# Define display_board that accepts a board and prints
-# out the current state.
+def display_board (x=["","","","","","","","",""])
+  a=" #{x[0]} | #{x[1]} | #{x[2]} "
+  b=("-----------")
+c=" #{x[3]} | #{x[4]} | #{x[5]} "
+  d=("-----------")
+  e=" #{x[6]} | #{x[7]} | #{x[8]} "
+  puts a,b,c,d,e
+end
